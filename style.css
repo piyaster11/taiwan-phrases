@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;background:#141414;color:#fff;font-family:system-ui,-apple-system,"PingFang TC","Noto Sans TC","Noto Sans Thai",sans-serif}
+.nav{position:sticky;top:0;z-index:5;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding:12px 4%;background:#141414f2}
+.logo{color:#e50914;font-weight:900;font-size:22px;letter-spacing:.5px}.sub{color:#aaa;font-size:13px}
+.hero{padding:28px 4% 30px;background:linear-gradient(135deg,#3a0610,#141414 70%)}.tag{color:#e50914;font-weight:700;font-size:14px}
+.hero h1{font-size:clamp(30px,7vw,52px);margin:8px 0 4px}.hero p{margin:4px 0;font-size:16px;color:#ddd}.py{color:#f3b2b9!important;font-style:italic}.note{color:#aaa!important;font-size:14px!important}
+.pbar{padding:14px 4%;display:flex;flex-direction:column;gap:10px}.pbar input{width:100%;max-width:560px;padding:10px 12px;border-radius:6px;border:1px solid #444;background:#111;color:#fff;font-size:16px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}.chips button{background:#333;color:#ddd;border:0;border-radius:14px;padding:6px 11px;font-size:13px;cursor:pointer}.chips button.on{background:#e50914;color:#fff}
+.row h2{font-size:20px;padding:0 4%;margin:22px 0 10px}.row h2 small{color:#999;font-size:13px;font-weight:400;margin-left:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;padding:0 4%}
+.card{background:#1f1f1f;border-radius:8px;padding:12px 14px;line-height:1.4}.zh{font-size:22px;font-weight:700}.cpy{color:#f3b2b9;font-style:italic;font-size:14px}.cen{font-size:14px;margin-top:4px}.cth{font-size:14px;color:#ccc}.cnote{font-size:12px;color:#999;margin-top:4px}
+.hk{display:inline-block;background:#7c3aed;color:#fff;font-size:11px;font-weight:700;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle}
+.pbtn{display:flex;gap:8px;margin-top:8px}.pbtn button{background:#e50914;color:#fff;border:0;border-radius:6px;padding:8px 12px;font-size:14px;min-height:36px;cursor:pointer}.pbtn .slow{background:#444}.noaud{font-size:12px;color:#888}
+.empty{padding:20px 4%;color:#aaa}footer{padding:30px 4%;color:#777;font-size:12px}

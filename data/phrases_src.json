@@ -1,0 +1,1394 @@
+{
+ "categories": [
+  {
+   "key": "greet",
+   "name": "Greetings",
+   "th": "ทักทาย"
+  },
+  {
+   "key": "night",
+   "name": "Night Market & Street Food",
+   "th": "ตลาดกลางคืน/สตรีทฟู้ด"
+  },
+  {
+   "key": "food",
+   "name": "Restaurant & Bubble Tea",
+   "th": "ร้านอาหาร/ชานมไข่มุก"
+  },
+  {
+   "key": "shop",
+   "name": "Shopping & Bargaining",
+   "th": "ช้อปปิ้ง/ต่อราคา"
+  },
+  {
+   "key": "transport",
+   "name": "MRT, HSR & Directions",
+   "th": "รถไฟฟ้า/เดินทาง/ถามทาง"
+  },
+  {
+   "key": "hotel",
+   "name": "Hotel",
+   "th": "โรงแรม"
+  },
+  {
+   "key": "store",
+   "name": "Convenience Store",
+   "th": "ร้านสะดวกซื้อ"
+  },
+  {
+   "key": "help",
+   "name": "Emergencies & Help",
+   "th": "ฉุกเฉิน/ขอความช่วยเหลือ"
+  },
+  {
+   "key": "talk",
+   "name": "Small Talk",
+   "th": "คุยเล่น"
+  },
+  {
+   "key": "polite",
+   "name": "Polite Expressions",
+   "th": "สำนวนสุภาพ"
+  },
+  {
+   "key": "num",
+   "name": "Numbers, Money & Time",
+   "th": "ตัวเลข/เงิน/เวลา"
+  },
+  {
+   "key": "hokkien",
+   "name": "Taiwanese Hokkien (台語)",
+   "th": "ภาษาไต้หวัน (ฮกเกี้ยน)"
+  }
+ ],
+ "phrases": [
+  {
+   "cat": "greet",
+   "zh": "你好",
+   "pinyin": "nǐ hǎo",
+   "en": "Hello",
+   "th": "สวัสดี",
+   "note": "Standard greeting any time of day."
+  },
+  {
+   "cat": "greet",
+   "zh": "早安",
+   "pinyin": "zǎo ān",
+   "en": "Good morning",
+   "th": "อรุณสวัสดิ์",
+   "note": "Very common in Taiwan; 早 alone is casual."
+  },
+  {
+   "cat": "greet",
+   "zh": "晚安",
+   "pinyin": "wǎn ān",
+   "en": "Good night",
+   "th": "ราตรีสวัสดิ์",
+   "note": "Said before bed, not as 'good evening'."
+  },
+  {
+   "cat": "greet",
+   "zh": "你好嗎？",
+   "pinyin": "nǐ hǎo ma?",
+   "en": "How are you?",
+   "th": "สบายดีไหม",
+   "note": "A bit formal; friends say 最近好嗎？"
+  },
+  {
+   "cat": "greet",
+   "zh": "最近好嗎？",
+   "pinyin": "zuìjìn hǎo ma?",
+   "en": "How have you been lately?",
+   "th": "ช่วงนี้เป็นไงบ้าง",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "我很好，謝謝",
+   "pinyin": "wǒ hěn hǎo, xièxie",
+   "en": "I'm fine, thanks",
+   "th": "สบายดี ขอบคุณ",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "很高興認識你",
+   "pinyin": "hěn gāoxìng rènshì nǐ",
+   "en": "Nice to meet you",
+   "th": "ยินดีที่ได้รู้จัก",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "我叫…",
+   "pinyin": "wǒ jiào…",
+   "en": "My name is…",
+   "th": "ฉันชื่อ…",
+   "note": "Add your name."
+  },
+  {
+   "cat": "greet",
+   "zh": "我是泰國人",
+   "pinyin": "wǒ shì Tàiguó rén",
+   "en": "I'm Thai",
+   "th": "ฉันเป็นคนไทย",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "你叫什麼名字？",
+   "pinyin": "nǐ jiào shénme míngzi?",
+   "en": "What's your name?",
+   "th": "คุณชื่ออะไร",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "再見",
+   "pinyin": "zàijiàn",
+   "en": "Goodbye",
+   "th": "ลาก่อน",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "掰掰",
+   "pinyin": "bāibāi",
+   "en": "Bye-bye",
+   "th": "บ๊ายบาย",
+   "note": "Very common casual goodbye in Taiwan."
+  },
+  {
+   "cat": "greet",
+   "zh": "明天見",
+   "pinyin": "míngtiān jiàn",
+   "en": "See you tomorrow",
+   "th": "เจอกันพรุ่งนี้",
+   "note": ""
+  },
+  {
+   "cat": "greet",
+   "zh": "好久不見",
+   "pinyin": "hǎojiǔ bújiàn",
+   "en": "Long time no see",
+   "th": "ไม่ได้เจอกันนานเลย",
+   "note": ""
+  },
+  {
+   "cat": "night",
+   "zh": "這個多少錢？",
+   "pinyin": "zhège duōshǎo qián?",
+   "en": "How much is this?",
+   "th": "อันนี้เท่าไหร่",
+   "note": ""
+  },
+  {
+   "cat": "night",
+   "zh": "我要這個",
+   "pinyin": "wǒ yào zhège",
+   "en": "I want this one",
+   "th": "เอาอันนี้",
+   "note": "Point at the item."
+  },
+  {
+   "cat": "night",
+   "zh": "一份",
+   "pinyin": "yí fèn",
+   "en": "One portion",
+   "th": "หนึ่งที่",
+   "note": "兩份 liǎng fèn = two portions."
+  },
+  {
+   "cat": "night",
+   "zh": "要辣嗎？",
+   "pinyin": "yào là ma?",
+   "en": "Do you want it spicy?",
+   "th": "เอาเผ็ดไหม",
+   "note": "Vendors often ask this."
+  },
+  {
+   "cat": "night",
+   "zh": "小辣就好",
+   "pinyin": "xiǎo là jiù hǎo",
+   "en": "Just a little spicy",
+   "th": "เผ็ดน้อยพอ",
+   "note": "不要辣 = not spicy."
+  },
+  {
+   "cat": "night",
+   "zh": "不要辣",
+   "pinyin": "búyào là",
+   "en": "Not spicy, please",
+   "th": "ไม่เอาเผ็ด",
+   "note": ""
+  },
+  {
+   "cat": "night",
+   "zh": "要排隊嗎？",
+   "pinyin": "yào páiduì ma?",
+   "en": "Do I need to queue?",
+   "th": "ต้องต่อคิวไหม",
+   "note": "Taiwanese queue neatly for famous stalls."
+  },
+  {
+   "cat": "night",
+   "zh": "外帶",
+   "pinyin": "wàidài",
+   "en": "To go / takeaway",
+   "th": "ใส่กลับบ้าน",
+   "note": "Taiwan word; Mainland says 打包."
+  },
+  {
+   "cat": "night",
+   "zh": "內用",
+   "pinyin": "nèiyòng",
+   "en": "Eat here",
+   "th": "ทานที่นี่",
+   "note": ""
+  },
+  {
+   "cat": "night",
+   "zh": "雞排",
+   "pinyin": "jīpái",
+   "en": "Fried chicken cutlet",
+   "th": "ไก่ทอดชิ้นใหญ่",
+   "note": "Night-market classic."
+  },
+  {
+   "cat": "night",
+   "zh": "臭豆腐",
+   "pinyin": "chòu dòufu",
+   "en": "Stinky tofu",
+   "th": "เต้าหู้เหม็น",
+   "note": ""
+  },
+  {
+   "cat": "night",
+   "zh": "蚵仔煎",
+   "pinyin": "ô-á-chian (é-á-jiān)",
+   "en": "Oyster omelet",
+   "th": "ไข่เจียวหอยนางรม",
+   "note": "Usually said in Taiwanese: ô-á-chian."
+  },
+  {
+   "cat": "night",
+   "zh": "大腸包小腸",
+   "pinyin": "dàcháng bāo xiǎocháng",
+   "en": "Sausage in sticky-rice sausage",
+   "th": "ไส้กรอกห่อข้าวเหนียว",
+   "note": "'Big intestine wraps small intestine'."
+  },
+  {
+   "cat": "night",
+   "zh": "可以切嗎？",
+   "pinyin": "kěyǐ qiē ma?",
+   "en": "Can you cut it?",
+   "th": "ช่วยหั่นได้ไหม",
+   "note": "For chicken cutlets etc."
+  },
+  {
+   "cat": "night",
+   "zh": "有沒有素的？",
+   "pinyin": "yǒu méiyǒu sù de?",
+   "en": "Is there anything vegetarian?",
+   "th": "มีของเจไหม",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "幾位？",
+   "pinyin": "jǐ wèi?",
+   "en": "How many people?",
+   "th": "กี่ท่าน",
+   "note": "Staff ask at the door."
+  },
+  {
+   "cat": "food",
+   "zh": "兩位",
+   "pinyin": "liǎng wèi",
+   "en": "Two people",
+   "th": "สองคน",
+   "note": "一位 yí wèi = one person."
+  },
+  {
+   "cat": "food",
+   "zh": "可以看菜單嗎？",
+   "pinyin": "kěyǐ kàn càidān ma?",
+   "en": "Can I see the menu?",
+   "th": "ขอดูเมนูได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "有英文菜單嗎？",
+   "pinyin": "yǒu Yīngwén càidān ma?",
+   "en": "Do you have an English menu?",
+   "th": "มีเมนูภาษาอังกฤษไหม",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "推薦什麼？",
+   "pinyin": "tuījiàn shénme?",
+   "en": "What do you recommend?",
+   "th": "แนะนำอะไรดี",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "我要一杯珍珠奶茶",
+   "pinyin": "wǒ yào yì bēi zhēnzhū nǎichá",
+   "en": "One bubble milk tea, please",
+   "th": "ขอชานมไข่มุกหนึ่งแก้ว",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "半糖",
+   "pinyin": "bàn táng",
+   "en": "Half sugar",
+   "th": "หวานครึ่งเดียว (50%)",
+   "note": "Levels: 全糖 full, 少糖 less (70%), 半糖 50%, 微糖 30%, 無糖 none."
+  },
+  {
+   "cat": "food",
+   "zh": "微糖",
+   "pinyin": "wéi táng",
+   "en": "Light sugar (about 30%)",
+   "th": "หวานน้อย (30%)",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "無糖",
+   "pinyin": "wú táng",
+   "en": "No sugar",
+   "th": "ไม่หวาน",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "少冰",
+   "pinyin": "shǎo bīng",
+   "en": "Less ice",
+   "th": "น้ำแข็งน้อย",
+   "note": "Ice: 正常冰 regular, 少冰 less, 微冰 light, 去冰 no ice, 溫/熱 warm/hot."
+  },
+  {
+   "cat": "food",
+   "zh": "去冰",
+   "pinyin": "qù bīng",
+   "en": "No ice",
+   "th": "ไม่ใส่น้ำแข็ง",
+   "note": "Drink is still cold, just without ice cubes."
+  },
+  {
+   "cat": "food",
+   "zh": "熱的",
+   "pinyin": "rè de",
+   "en": "Hot",
+   "th": "ร้อน",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "大杯還是中杯？",
+   "pinyin": "dà bēi háishì zhōng bēi?",
+   "en": "Large or medium?",
+   "th": "แก้วใหญ่หรือกลาง",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "要袋子嗎？",
+   "pinyin": "yào dàizi ma?",
+   "en": "Do you need a bag?",
+   "th": "รับถุงไหม",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "我對花生過敏",
+   "pinyin": "wǒ duì huāshēng guòmǐn",
+   "en": "I'm allergic to peanuts",
+   "th": "ฉันแพ้ถั่วลิสง",
+   "note": "蝦 xiā shrimp, 蛋 dàn egg."
+  },
+  {
+   "cat": "food",
+   "zh": "不要香菜",
+   "pinyin": "búyào xiāngcài",
+   "en": "No coriander, please",
+   "th": "ไม่ใส่ผักชี",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "好吃！",
+   "pinyin": "hǎochī!",
+   "en": "Delicious!",
+   "th": "อร่อย!",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "買單",
+   "pinyin": "mǎidān",
+   "en": "The bill, please",
+   "th": "เช็คบิล",
+   "note": "Many places: pay at the counter (櫃台)."
+  },
+  {
+   "cat": "food",
+   "zh": "可以刷卡嗎？",
+   "pinyin": "kěyǐ shuākǎ ma?",
+   "en": "Can I pay by card?",
+   "th": "จ่ายบัตรได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "food",
+   "zh": "再一碗白飯",
+   "pinyin": "zài yì wǎn báifàn",
+   "en": "One more bowl of rice",
+   "th": "ขอข้าวสวยอีกถ้วย",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "可以算便宜一點嗎？",
+   "pinyin": "kěyǐ suàn piányí yìdiǎn ma?",
+   "en": "Can you make it a bit cheaper?",
+   "th": "ลดหน่อยได้ไหม",
+   "note": "OK at markets; not in malls or chain stores."
+  },
+  {
+   "cat": "shop",
+   "zh": "太貴了",
+   "pinyin": "tài guì le",
+   "en": "Too expensive",
+   "th": "แพงไป",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "買兩個有折扣嗎？",
+   "pinyin": "mǎi liǎng ge yǒu zhékòu ma?",
+   "en": "Is there a discount for two?",
+   "th": "ซื้อสองชิ้นมีส่วนลดไหม",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "我只是看看",
+   "pinyin": "wǒ zhǐshì kànkan",
+   "en": "I'm just looking",
+   "th": "แค่ดูเฉยๆ",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "可以試穿嗎？",
+   "pinyin": "kěyǐ shìchuān ma?",
+   "en": "Can I try it on?",
+   "th": "ลองใส่ได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "有大一點的嗎？",
+   "pinyin": "yǒu dà yìdiǎn de ma?",
+   "en": "Do you have a bigger one?",
+   "th": "มีใหญ่กว่านี้ไหม",
+   "note": "小一點 = smaller."
+  },
+  {
+   "cat": "shop",
+   "zh": "有別的顏色嗎？",
+   "pinyin": "yǒu bié de yánsè ma?",
+   "en": "Other colors?",
+   "th": "มีสีอื่นไหม",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "我要這個",
+   "pinyin": "wǒ yào zhège",
+   "en": "I'll take this",
+   "th": "เอาอันนี้",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "可以退稅嗎？",
+   "pinyin": "kěyǐ tuìshuì ma?",
+   "en": "Can I get a tax refund?",
+   "th": "ขอคืนภาษีได้ไหม",
+   "note": "Look for TRS stickers; bring your passport."
+  },
+  {
+   "cat": "shop",
+   "zh": "只收現金嗎？",
+   "pinyin": "zhǐ shōu xiànjīn ma?",
+   "en": "Cash only?",
+   "th": "รับแต่เงินสดเหรอ",
+   "note": "Many night-market stalls are cash only."
+  },
+  {
+   "cat": "shop",
+   "zh": "可以用悠遊卡嗎？",
+   "pinyin": "kěyǐ yòng Yōuyóukǎ ma?",
+   "en": "Can I pay with EasyCard?",
+   "th": "จ่ายด้วยบัตร EasyCard ได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "shop",
+   "zh": "有發票嗎？",
+   "pinyin": "yǒu fāpiào ma?",
+   "en": "Is there a receipt?",
+   "th": "มีใบเสร็จไหม",
+   "note": "Taiwan receipts double as lottery tickets!"
+  },
+  {
+   "cat": "transport",
+   "zh": "請問捷運站在哪裡？",
+   "pinyin": "qǐngwèn jiéyùn zhàn zài nǎlǐ?",
+   "en": "Excuse me, where is the MRT station?",
+   "th": "ขอถามหน่อย สถานี MRT อยู่ไหน",
+   "note": "捷運 = MRT in Taiwan; 請問 opens any question."
+  },
+  {
+   "cat": "transport",
+   "zh": "請問廁所在哪裡？",
+   "pinyin": "qǐngwèn cèsuǒ zài nǎlǐ?",
+   "en": "Where is the restroom?",
+   "th": "ห้องน้ำอยู่ไหน",
+   "note": "洗手間 xǐshǒujiān is also common."
+  },
+  {
+   "cat": "transport",
+   "zh": "我想去台北101",
+   "pinyin": "wǒ xiǎng qù Táiběi yī-líng-yī",
+   "en": "I want to go to Taipei 101",
+   "th": "อยากไปไทเป 101",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "怎麼走？",
+   "pinyin": "zěnme zǒu?",
+   "en": "How do I get there?",
+   "th": "ไปยังไง",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "直走",
+   "pinyin": "zhí zǒu",
+   "en": "Go straight",
+   "th": "ตรงไป",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "右轉／左轉",
+   "pinyin": "yòu zhuǎn / zuǒ zhuǎn",
+   "en": "Turn right / Turn left",
+   "th": "เลี้ยวขวา / เลี้ยวซ้าย",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "走路要多久？",
+   "pinyin": "zǒulù yào duōjiǔ?",
+   "en": "How long on foot?",
+   "th": "เดินไปกี่นาที",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "要在哪裡轉車？",
+   "pinyin": "yào zài nǎlǐ zhuǎnchē?",
+   "en": "Where do I transfer?",
+   "th": "ต้องเปลี่ยนสายที่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "下一站是哪裡？",
+   "pinyin": "xià yí zhàn shì nǎlǐ?",
+   "en": "What's the next stop?",
+   "th": "สถานีต่อไปคือที่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "一張到台中的高鐵票",
+   "pinyin": "yì zhāng dào Táizhōng de gāotiě piào",
+   "en": "One HSR ticket to Taichung",
+   "th": "ขอตั๋วรถไฟความเร็วสูงไปไถจงหนึ่งใบ",
+   "note": "高鐵 = High Speed Rail; 台鐵 = regular TRA trains."
+  },
+  {
+   "cat": "transport",
+   "zh": "自由座",
+   "pinyin": "zìyóu zuò",
+   "en": "Non-reserved seat",
+   "th": "ที่นั่งไม่ระบุ",
+   "note": "Cheaper HSR seats in cars 10–12."
+  },
+  {
+   "cat": "transport",
+   "zh": "這班車到九份嗎？",
+   "pinyin": "zhè bān chē dào Jiǔfèn ma?",
+   "en": "Does this bus go to Jiufen?",
+   "th": "รถคันนี้ไปจิ่วเฟิ่นไหม",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "在這裡下車",
+   "pinyin": "zài zhèlǐ xiàchē",
+   "en": "I'll get off here",
+   "th": "ลงตรงนี้",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "請到這個地址",
+   "pinyin": "qǐng dào zhège dìzhǐ",
+   "en": "To this address, please (taxi)",
+   "th": "ไปที่อยู่นี้ครับ/ค่ะ",
+   "note": "Show the address in Chinese."
+  },
+  {
+   "cat": "transport",
+   "zh": "我迷路了",
+   "pinyin": "wǒ mílù le",
+   "en": "I'm lost",
+   "th": "ฉันหลงทาง",
+   "note": ""
+  },
+  {
+   "cat": "transport",
+   "zh": "YouBike要怎麼借？",
+   "pinyin": "YouBike yào zěnme jiè?",
+   "en": "How do I rent a YouBike?",
+   "th": "ยืม YouBike ยังไง",
+   "note": "Taiwan's public bikes; tap EasyCard to unlock."
+  },
+  {
+   "cat": "hotel",
+   "zh": "我有訂房",
+   "pinyin": "wǒ yǒu dìngfáng",
+   "en": "I have a reservation",
+   "th": "จองห้องไว้แล้ว",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "我要辦入住",
+   "pinyin": "wǒ yào bàn rùzhù",
+   "en": "I'd like to check in",
+   "th": "ขอเช็คอิน",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "幾點退房？",
+   "pinyin": "jǐ diǎn tuìfáng?",
+   "en": "What time is check-out?",
+   "th": "เช็คเอาท์กี่โมง",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "可以寄放行李嗎？",
+   "pinyin": "kěyǐ jìfàng xíngli ma?",
+   "en": "Can I leave my luggage?",
+   "th": "ฝากกระเป๋าได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "Wi-Fi密碼是什麼？",
+   "pinyin": "Wi-Fi mìmǎ shì shénme?",
+   "en": "What's the Wi-Fi password?",
+   "th": "รหัส Wi-Fi คืออะไร",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "早餐幾點開始？",
+   "pinyin": "zǎocān jǐ diǎn kāishǐ?",
+   "en": "What time does breakfast start?",
+   "th": "อาหารเช้าเริ่มกี่โมง",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "可以多給一條毛巾嗎？",
+   "pinyin": "kěyǐ duō gěi yì tiáo máojīn ma?",
+   "en": "Could I have another towel?",
+   "th": "ขอผ้าเช็ดตัวเพิ่มอีกผืนได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "冷氣壞了",
+   "pinyin": "lěngqì huài le",
+   "en": "The air conditioner is broken",
+   "th": "แอร์เสีย",
+   "note": "冷氣 = A/C in Taiwan (Mainland: 空調)."
+  },
+  {
+   "cat": "hotel",
+   "zh": "沒有熱水",
+   "pinyin": "méiyǒu rèshuǐ",
+   "en": "There's no hot water",
+   "th": "ไม่มีน้ำร้อน",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "我的房卡不能用",
+   "pinyin": "wǒ de fángkǎ bù néng yòng",
+   "en": "My key card doesn't work",
+   "th": "คีย์การ์ดใช้ไม่ได้",
+   "note": ""
+  },
+  {
+   "cat": "hotel",
+   "zh": "可以幫我叫計程車嗎？",
+   "pinyin": "kěyǐ bāng wǒ jiào jìchéngchē ma?",
+   "en": "Could you call me a taxi?",
+   "th": "ช่วยเรียกแท็กซี่ให้หน่อยได้ไหม",
+   "note": "計程車 = taxi in Taiwan."
+  },
+  {
+   "cat": "hotel",
+   "zh": "可以再住一晚嗎？",
+   "pinyin": "kěyǐ zài zhù yì wǎn ma?",
+   "en": "Can I stay one more night?",
+   "th": "พักเพิ่มอีกคืนได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "store",
+   "zh": "要加熱嗎？",
+   "pinyin": "yào jiārè ma?",
+   "en": "Do you want it heated?",
+   "th": "อุ่นไหม",
+   "note": "7-11 / FamilyMart staff ask for bento and buns."
+  },
+  {
+   "cat": "store",
+   "zh": "麻煩幫我加熱",
+   "pinyin": "máfan bāng wǒ jiārè",
+   "en": "Please heat it up",
+   "th": "ช่วยอุ่นให้หน่อย",
+   "note": "麻煩 = 'sorry to trouble you', very Taiwanese."
+  },
+  {
+   "cat": "store",
+   "zh": "要袋子嗎？",
+   "pinyin": "yào dàizi ma?",
+   "en": "Do you need a bag?",
+   "th": "รับถุงไหม",
+   "note": "Bags cost about NT$1–2."
+  },
+  {
+   "cat": "store",
+   "zh": "不用，謝謝",
+   "pinyin": "búyòng, xièxie",
+   "en": "No need, thanks",
+   "th": "ไม่ต้อง ขอบคุณ",
+   "note": "Polite way to decline anything."
+  },
+  {
+   "cat": "store",
+   "zh": "我要儲值悠遊卡",
+   "pinyin": "wǒ yào chúzhí Yōuyóukǎ",
+   "en": "I'd like to top up my EasyCard",
+   "th": "ขอเติมเงินบัตร EasyCard",
+   "note": "Hand the card and cash to the cashier."
+  },
+  {
+   "cat": "store",
+   "zh": "儲值五百",
+   "pinyin": "chúzhí wǔbǎi",
+   "en": "Top up 500",
+   "th": "เติม 500",
+   "note": ""
+  },
+  {
+   "cat": "store",
+   "zh": "要統編嗎？",
+   "pinyin": "yào tǒngbiān ma?",
+   "en": "Do you need a company tax ID?",
+   "th": "ต้องการเลขผู้เสียภาษีไหม",
+   "note": "Just say 不用 (no)."
+  },
+  {
+   "cat": "store",
+   "zh": "有載具嗎？",
+   "pinyin": "yǒu zàijù ma?",
+   "en": "Do you have a receipt carrier (app barcode)?",
+   "th": "มีบาร์โค้ดเก็บใบเสร็จไหม",
+   "note": "Locals scan a phone barcode; tourists say 沒有."
+  },
+  {
+   "cat": "store",
+   "zh": "這個可以微波嗎？",
+   "pinyin": "zhège kěyǐ wéibō ma?",
+   "en": "Can this be microwaved?",
+   "th": "อันนี้เข้าไมโครเวฟได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "store",
+   "zh": "ATM在哪裡？",
+   "pinyin": "ATM zài nǎlǐ?",
+   "en": "Where's the ATM?",
+   "th": "ตู้ ATM อยู่ไหน",
+   "note": "Convenience stores have ATMs taking foreign cards."
+  },
+  {
+   "cat": "store",
+   "zh": "可以寄包裹嗎？",
+   "pinyin": "kěyǐ jì bāoguǒ ma?",
+   "en": "Can I send a parcel here?",
+   "th": "ส่งพัสดุที่นี่ได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "store",
+   "zh": "茶葉蛋一顆",
+   "pinyin": "cháyè dàn yì kē",
+   "en": "One tea egg",
+   "th": "ไข่ต้มใบชาหนึ่งลูก",
+   "note": "The pot by the counter at every 7-11."
+  },
+  {
+   "cat": "help",
+   "zh": "救命！",
+   "pinyin": "jiùmìng!",
+   "en": "Help!",
+   "th": "ช่วยด้วย!",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "請叫救護車",
+   "pinyin": "qǐng jiào jiùhùchē",
+   "en": "Please call an ambulance",
+   "th": "ช่วยเรียกรถพยาบาล",
+   "note": "Ambulance/fire 119, police 110."
+  },
+  {
+   "cat": "help",
+   "zh": "請叫警察",
+   "pinyin": "qǐng jiào jǐngchá",
+   "en": "Please call the police",
+   "th": "ช่วยเรียกตำรวจ",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "醫院在哪裡？",
+   "pinyin": "yīyuàn zài nǎlǐ?",
+   "en": "Where is the hospital?",
+   "th": "โรงพยาบาลอยู่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "我不舒服",
+   "pinyin": "wǒ bù shūfu",
+   "en": "I don't feel well",
+   "th": "ฉันไม่สบาย",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "我這裡痛",
+   "pinyin": "wǒ zhèlǐ tòng",
+   "en": "It hurts here",
+   "th": "เจ็บตรงนี้",
+   "note": "Point to the spot."
+  },
+  {
+   "cat": "help",
+   "zh": "我發燒了",
+   "pinyin": "wǒ fāshāo le",
+   "en": "I have a fever",
+   "th": "ฉันมีไข้",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "藥局在哪裡？",
+   "pinyin": "yàojú zài nǎlǐ?",
+   "en": "Where is a pharmacy?",
+   "th": "ร้านขายยาอยู่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "我的錢包不見了",
+   "pinyin": "wǒ de qiánbāo bú jiàn le",
+   "en": "My wallet is missing",
+   "th": "กระเป๋าเงินหาย",
+   "note": "手機 shǒujī phone, 護照 hùzhào passport."
+  },
+  {
+   "cat": "help",
+   "zh": "有人會說英文嗎？",
+   "pinyin": "yǒu rén huì shuō Yīngwén ma?",
+   "en": "Does anyone speak English?",
+   "th": "มีใครพูดภาษาอังกฤษได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "我聽不懂",
+   "pinyin": "wǒ tīng bù dǒng",
+   "en": "I don't understand",
+   "th": "ฟังไม่เข้าใจ",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "請再說一次",
+   "pinyin": "qǐng zài shuō yí cì",
+   "en": "Please say it again",
+   "th": "ช่วยพูดอีกครั้ง",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "請說慢一點",
+   "pinyin": "qǐng shuō màn yìdiǎn",
+   "en": "Please speak slower",
+   "th": "ช่วยพูดช้าๆ หน่อย",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "可以寫下來嗎？",
+   "pinyin": "kěyǐ xiě xiàlái ma?",
+   "en": "Can you write it down?",
+   "th": "ช่วยเขียนให้ได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "help",
+   "zh": "地震！",
+   "pinyin": "dìzhèn!",
+   "en": "Earthquake!",
+   "th": "แผ่นดินไหว!",
+   "note": "Taiwan has frequent quakes; take cover under a table."
+  },
+  {
+   "cat": "help",
+   "zh": "颱風天店有開嗎？",
+   "pinyin": "táifēng tiān diàn yǒu kāi ma?",
+   "en": "Is the shop open on a typhoon day?",
+   "th": "วันไต้ฝุ่นร้านเปิดไหม",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "今天好熱喔",
+   "pinyin": "jīntiān hǎo rè o",
+   "en": "It's so hot today",
+   "th": "วันนี้ร้อนจัง",
+   "note": "喔 makes it sound friendly and Taiwanese."
+  },
+  {
+   "cat": "talk",
+   "zh": "你是哪裡人？",
+   "pinyin": "nǐ shì nǎlǐ rén?",
+   "en": "Where are you from?",
+   "th": "คุณเป็นคนที่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "我第一次來台灣",
+   "pinyin": "wǒ dì-yī cì lái Táiwān",
+   "en": "It's my first time in Taiwan",
+   "th": "มาไต้หวันครั้งแรก",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "我很喜歡台灣",
+   "pinyin": "wǒ hěn xǐhuān Táiwān",
+   "en": "I really like Taiwan",
+   "th": "ชอบไต้หวันมาก",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "我在學中文",
+   "pinyin": "wǒ zài xué Zhōngwén",
+   "en": "I'm learning Chinese",
+   "th": "ฉันกำลังเรียนภาษาจีน",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "我只會說一點點",
+   "pinyin": "wǒ zhǐ huì shuō yìdiǎndiǎn",
+   "en": "I can only speak a little",
+   "th": "พูดได้นิดหน่อย",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "真的嗎？",
+   "pinyin": "zhēn de ma?",
+   "en": "Really?",
+   "th": "จริงเหรอ",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "好厲害！",
+   "pinyin": "hǎo lìhài!",
+   "en": "Awesome! / So impressive!",
+   "th": "เก่งมาก! / สุดยอด!",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "對啊",
+   "pinyin": "duì a",
+   "en": "Yeah, right",
+   "th": "ใช่เลย",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "沒問題",
+   "pinyin": "méi wèntí",
+   "en": "No problem",
+   "th": "ไม่มีปัญหา",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "可以幫我拍照嗎？",
+   "pinyin": "kěyǐ bāng wǒ pāizhào ma?",
+   "en": "Could you take a photo of me?",
+   "th": "ช่วยถ่ายรูปให้หน่อยได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "有什麼好玩的地方？",
+   "pinyin": "yǒu shénme hǎowán de dìfāng?",
+   "en": "Any fun places to visit?",
+   "th": "มีที่เที่ยวสนุกๆ ไหม",
+   "note": ""
+  },
+  {
+   "cat": "talk",
+   "zh": "有LINE嗎？",
+   "pinyin": "yǒu LINE ma?",
+   "en": "Do you have LINE?",
+   "th": "มีไลน์ไหม",
+   "note": "LINE is the main chat app in Taiwan."
+  },
+  {
+   "cat": "talk",
+   "zh": "超讚的！",
+   "pinyin": "chāo zàn de!",
+   "en": "Super great!",
+   "th": "เจ๋งมาก!",
+   "note": "Casual Taiwanese slang."
+  },
+  {
+   "cat": "polite",
+   "zh": "謝謝",
+   "pinyin": "xièxie",
+   "en": "Thank you",
+   "th": "ขอบคุณ",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "謝謝你",
+   "pinyin": "xièxie nǐ",
+   "en": "Thank you (to you)",
+   "th": "ขอบคุณนะ",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "不客氣",
+   "pinyin": "bú kèqì",
+   "en": "You're welcome",
+   "th": "ไม่เป็นไร / ยินดี",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "不好意思",
+   "pinyin": "bù hǎoyìsi",
+   "en": "Excuse me / Sorry (light)",
+   "th": "ขอโทษนะ / ขออนุญาต",
+   "note": "Most-used polite word in Taiwan: getting attention, passing by."
+  },
+  {
+   "cat": "polite",
+   "zh": "對不起",
+   "pinyin": "duìbùqǐ",
+   "en": "I'm sorry",
+   "th": "ขอโทษ",
+   "note": "For real apologies."
+  },
+  {
+   "cat": "polite",
+   "zh": "請問",
+   "pinyin": "qǐngwèn",
+   "en": "May I ask…",
+   "th": "ขอถามหน่อย",
+   "note": "Start any question to a stranger with this."
+  },
+  {
+   "cat": "polite",
+   "zh": "麻煩你了",
+   "pinyin": "máfan nǐ le",
+   "en": "Sorry for the trouble / Thanks",
+   "th": "รบกวนด้วยนะ",
+   "note": "When someone helps you."
+  },
+  {
+   "cat": "polite",
+   "zh": "沒關係",
+   "pinyin": "méi guānxi",
+   "en": "It's OK / No worries",
+   "th": "ไม่เป็นไร",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "請等一下",
+   "pinyin": "qǐng děng yíxià",
+   "en": "Please wait a moment",
+   "th": "รอสักครู่",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "好的",
+   "pinyin": "hǎo de",
+   "en": "OK / Sure",
+   "th": "ได้เลย",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "是／不是",
+   "pinyin": "shì / bú shì",
+   "en": "Yes / No",
+   "th": "ใช่ / ไม่ใช่",
+   "note": ""
+  },
+  {
+   "cat": "polite",
+   "zh": "辛苦了",
+   "pinyin": "xīnkǔ le",
+   "en": "Thanks for your hard work",
+   "th": "ขอบคุณที่เหนื่อยนะ",
+   "note": "To staff, drivers, coworkers."
+  },
+  {
+   "cat": "polite",
+   "zh": "加油！",
+   "pinyin": "jiāyóu!",
+   "en": "You can do it! / Go!",
+   "th": "สู้ๆ!",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "一、二、三",
+   "pinyin": "yī, èr, sān",
+   "en": "One, two, three",
+   "th": "หนึ่ง สอง สาม",
+   "note": "4 sì, 5 wǔ, 6 liù, 7 qī, 8 bā, 9 jiǔ, 10 shí."
+  },
+  {
+   "cat": "num",
+   "zh": "一百塊",
+   "pinyin": "yìbǎi kuài",
+   "en": "100 dollars (NT$100)",
+   "th": "100 ดอลลาร์ไต้หวัน",
+   "note": "塊 kuài = dollar in speech; 元 yuán on signs."
+  },
+  {
+   "cat": "num",
+   "zh": "兩百五十塊",
+   "pinyin": "liǎngbǎi wǔshí kuài",
+   "en": "NT$250",
+   "th": "250 ดอลลาร์",
+   "note": "Use 兩 liǎng (not 二) before 百/千."
+  },
+  {
+   "cat": "num",
+   "zh": "一千",
+   "pinyin": "yìqiān",
+   "en": "One thousand",
+   "th": "หนึ่งพัน",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "一萬",
+   "pinyin": "yíwàn",
+   "en": "Ten thousand",
+   "th": "หนึ่งหมื่น",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "現在幾點？",
+   "pinyin": "xiànzài jǐ diǎn?",
+   "en": "What time is it?",
+   "th": "ตอนนี้กี่โมง",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "三點半",
+   "pinyin": "sān diǎn bàn",
+   "en": "Half past three",
+   "th": "สามโมงครึ่ง",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "幾點開門？",
+   "pinyin": "jǐ diǎn kāimén?",
+   "en": "What time does it open?",
+   "th": "เปิดกี่โมง",
+   "note": "關門 guānmén = close."
+  },
+  {
+   "cat": "num",
+   "zh": "今天／明天／昨天",
+   "pinyin": "jīntiān / míngtiān / zuótiān",
+   "en": "Today / Tomorrow / Yesterday",
+   "th": "วันนี้ / พรุ่งนี้ / เมื่อวาน",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "星期一",
+   "pinyin": "xīngqí yī",
+   "en": "Monday",
+   "th": "วันจันทร์",
+   "note": "星期天 Sunday; 禮拜 lǐbài is also common."
+  },
+  {
+   "cat": "num",
+   "zh": "早上／下午／晚上",
+   "pinyin": "zǎoshang / xiàwǔ / wǎnshang",
+   "en": "Morning / Afternoon / Evening",
+   "th": "เช้า / บ่าย / เย็น",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "等五分鐘",
+   "pinyin": "děng wǔ fēnzhōng",
+   "en": "Wait five minutes",
+   "th": "รอห้านาที",
+   "note": ""
+  },
+  {
+   "cat": "num",
+   "zh": "一個、兩個、三個",
+   "pinyin": "yí ge, liǎng ge, sān ge",
+   "en": "One, two, three (items)",
+   "th": "หนึ่งอัน สองอัน สามอัน",
+   "note": ""
+  },
+  {
+   "cat": "hokkien",
+   "zh": "你好",
+   "pinyin": "lí-hó",
+   "en": "Hello (Taiwanese)",
+   "th": "สวัสดี (ภาษาไต้หวัน)",
+   "note": "Taiwanese Hokkien, romanized in Tâi-lô. Audio not available.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "多謝",
+   "pinyin": "to-siā",
+   "en": "Thank you (Taiwanese)",
+   "th": "ขอบคุณ (ภาษาไต้หวัน)",
+   "note": "Taiwanese Hokkien. Older vendors love hearing it.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "食飽未？",
+   "pinyin": "tsia̍h-pá-buē?",
+   "en": "Have you eaten? (a greeting)",
+   "th": "กินข้าวหรือยัง (คำทักทาย)",
+   "note": "Taiwanese Hokkien greeting, like 'how are you'.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "真好食！",
+   "pinyin": "tsin hó-tsia̍h!",
+   "en": "Really delicious!",
+   "th": "อร่อยมาก!",
+   "note": "Taiwanese Hokkien; great at night markets.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "歹勢",
+   "pinyin": "pháinn-sè",
+   "en": "Sorry / Excuse me",
+   "th": "ขอโทษนะ",
+   "note": "Taiwanese Hokkien; very common even in Mandarin speech.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "足讚！",
+   "pinyin": "tsiok tsán!",
+   "en": "Awesome!",
+   "th": "เจ๋งมาก!",
+   "note": "Taiwanese Hokkien.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "再會",
+   "pinyin": "tsài-huē",
+   "en": "Goodbye",
+   "th": "ลาก่อน",
+   "note": "Taiwanese Hokkien.",
+   "hokkien": true
+  },
+  {
+   "cat": "hokkien",
+   "zh": "免客氣",
+   "pinyin": "bián kheh-khì",
+   "en": "You're welcome",
+   "th": "ไม่ต้องเกรงใจ",
+   "note": "Taiwanese Hokkien.",
+   "hokkien": true
+  }
+ ]
+}
