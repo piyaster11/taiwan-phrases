@@ -19,7 +19,7 @@ out=[]
 for i,p in enumerate(src['phrases']):
   q=dict(id=i+1,**p)
   if not p.get('hokkien'):
-    q['say']=say(p['zh']);q['audio']='audio/'+hashlib.md5((VOICE+q['say']).encode()).hexdigest()[:10]+'.mp3'
+    q['say']=p.get('say') or say(p['zh']);q['audio']='audio/'+hashlib.md5((VOICE+q['say']).encode()).hexdigest()[:10]+'.mp3'
   out.append(q)
 def one(q):
   f=q.get('audio')

@@ -11,3 +11,5 @@
 .hk{display:inline-block;background:#7c3aed;color:#fff;font-size:11px;font-weight:700;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle}
 .pbtn{display:flex;gap:8px;margin-top:8px}.pbtn button{background:#e50914;color:#fff;border:0;border-radius:6px;padding:8px 12px;font-size:14px;min-height:36px;cursor:pointer}.pbtn .slow{background:#444}.noaud{font-size:12px;color:#888}
 .empty{padding:20px 4%;color:#aaa}footer{padding:30px 4%;color:#777;font-size:12px}
+.row.must .grid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}.row.must .card{border:2px solid #e50914;padding:16px}.row.must .zh{font-size:28px}.row.must .cen{font-size:16px;font-weight:600}
+.sos{margin:0 4% 10px;background:#3a0610;border-left:4px solid #e50914;padding:10px 12px;font-weight:700;border-radius:4px}.chips button.mk{background:#5a0a14;color:#fff;font-weight:700}.chips button.mk.on{background:#e50914}
